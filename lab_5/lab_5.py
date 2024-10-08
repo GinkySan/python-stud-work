@@ -15,7 +15,6 @@ def insert_text_at_line(file_path, text, line_number):
         file.writelines(lines)
 
 
-# Пример использования
 file_path = 'example.txt'
 text_to_insert = 'привет'
 line_to_insert = 3
