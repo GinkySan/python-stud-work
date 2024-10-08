@@ -15,7 +15,6 @@ def update_table_with_data(table_name, data_list):
     conn.commit()
     conn.close()
 
-# Пример использования
 table_name = 'example_table'
 data_list = [
     {'column1': '1', 'column2': '2'},
